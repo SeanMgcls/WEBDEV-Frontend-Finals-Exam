@@ -24,14 +24,16 @@ export default function AppNavbar(){
                         user.isAdmin === true ?
                         <>
                         <Nav.Link as={Link} to="/add-course">Add Course</Nav.Link>
+                        <Nav.Link as={Link} to="/all-users">All Users</Nav.Link>
+                        <Nav.Link as={Link} to="/user-profile">Profile</Nav.Link>
                         <Nav.Link as={Link} to="/logout">Logout</Nav.Link>
                         </>
                         :
                         <>
-                        <Nav.Link as={Link} to="/logout">Logout</Nav.Link>
                         <Nav.Link as={Link} to="/user-profile">Profile</Nav.Link>
+                        <Nav.Link as={Link} to="/logout">Logout</Nav.Link>
                         </>
-                    :
+                    :   //
                     <>
                     <Nav.Link as={Link} to="/register">Register</Nav.Link>
                     <Nav.Link as={Link} to="/login">Login</Nav.Link>

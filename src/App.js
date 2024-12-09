@@ -15,6 +15,7 @@ import { UserProvider } from './UserContext';
 import Course from './pages/Course';
 import AddCourse from './pages/AddCourse';
 import UserProfile from './pages/Profile';
+import AllUsers from './pages/AllUsers';
 
 
 
@@ -70,6 +71,7 @@ function App() {
                 <Route path='/courses' element={<Course/>}/>
                 <Route path='/add-course' element={<AddCourse/>}/>
                 <Route path='/user-profile' element={<UserProfile/>}/>
+                <Route path='/all-users' element={<AllUsers/>}/>
                 <Route path='*' element={<ErrorPage/>}/>
               </Routes>
           </Container>
