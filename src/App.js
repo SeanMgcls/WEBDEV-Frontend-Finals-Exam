@@ -69,7 +69,7 @@ function App() {
                 <Route path='/logout' element={<Logout/>}/>
                 <Route path='/courses' element={<Course/>}/>
                 <Route path='/add-course' element={<AddCourse/>}/>
-                <Route path='/user-profile' element={<Profile/>}/>
+                <Route path='/user-profile' element={<UserProfile/>}/>
                 <Route path='*' element={<ErrorPage/>}/>
               </Routes>
           </Container>
